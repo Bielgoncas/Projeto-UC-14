@@ -1,0 +1,132 @@
+<!Doctype html>
+<html lang="PT-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" 
+		content="width=device-width, initial-scale=1">
+		<title>Site 100%</title>
+		<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<nav class="menu">
+		<a class="btn" href="#">&#9776;</a>
+			<ul id="links">
+				<li><a href="#sessao1">SURFPICS</a></li>
+				<li><a href="#sessao1">Home</a></li>
+				<li><a href="#sessao2">Quem somos</a></li>
+				<li><a href="#sessao3">Serviços</a></li>
+				<li><a href="#sessao4">Ultimas Sessões</a></li>
+				<li><a href="#sessao5">Cadastre-se</a></li>
+			</ul>
+		</nav>
+		
+		<section id="sessao1">	
+			<h2>SURFPIC'S</h2>
+			<section  class="flex">		
+				
+				<article class="coluna">								
+					<p>CONECTANDO SURFISTAS A FOTOGRÁFOS</p>					
+				</article>
+			
+				<article class="login">
+					<h2>Login</h2>				 
+					<form method="POST" name="logar" action="entrar.php">
+						<input type="text" name="usuario" placeholder="Usuário"	/>
+						<input type="password" name="senha" placeholder="Senha" />
+						<input type="submit" id="logar" name="submit" value="Logar"/>
+					</form>
+					<a href="index.php">Cadastre-se</a>
+				</article>
+			</section>				
+		</section>
+		
+		<section id="sessao2">
+			<h2>O que fazemos</h2>
+			<section class="sessao2">
+				<article class="somos">
+					<p>Nossos fotografos de qualquer lugar do mundo publicam suas fotos para que sufistas possam compralas.</p>
+				</article>
+				<article class="imagem2">
+					<img src="imagens/foto3.jpg"/>
+				</article>
+			</section>
+		</section>
+		
+		<section id="sessao3">
+			<h2>Serviços</h2>
+			<section class="sessao3">
+				<article class="contato">
+					<p>* E-mail: ratsurf@hotmail.com</p>
+					<p>* Telefone: (51)99704-4473</p>
+				</article>
+				<article class="orcamento">
+					<h2>Solicite um Orçamento</h2>
+					<form method="POST" name="orcamento">
+						<input type="text" id="nome1" name="nome" placeholder="Nome"/>
+						<input type="text" id="email1" name="email" placeholder="E-mail"/>
+						<textarea id="orcamento" name="orcamento" placeholder="Descrição do serviço.."></textarea>
+						<input type="submit" id="enviar" name="submit" value="Enviar"/>
+					</form>
+				</article>
+			</section>
+		</section>
+		
+		<section id="sessao4">
+			<h2>Ultimas Sessões</h2>
+				<figure>
+				<img class="imagem" src="imagens/imagem1.jpg" />
+				<a href="index.php">Ver mais..</a>
+				</figure>	
+				<figure>
+				<img class="imagem" src="imagens/imagem2.jpg" />
+				<a href="index.php">Ver mais..</a>
+				</figure>
+				<figure>
+				<img class="imagem" src="imagens/imagem3.jpg" />
+				<a href="index.php">Ver mais..</a>
+				</figure>
+				<figure>
+				<img class="imagem" src="imagens/imagem4.jpg" />
+				<a href="index.php">Ver mais..</a>
+				</figure>
+		</section>
+		
+		<section id="sessao5">			
+			<div class="cadastro">
+			<h2>Cadastre-se</h2>
+			<form method="post" action="">
+				<input type="text" name="nome" id="nome" class="form" placeholder="Digite seu nome" />
+					
+				<input type="tel" name="fone" id="fone"	class="form" placeholder="Telefone Fixo ou Celular" />
+					
+				<input type="email" name="email" id="email" class="form" placeholder="Digite seu e-mail" />
+					
+				<input type="email" name="email2" id="email2" class="form" placeholder="Repita seu e-mail" />
+					
+				<input type="password" name="senha" id="senha" class="form"	placeholder="Digite uma senha" />
+					
+				<input type="password" name="senha2" id="senha2" class="form" placeholder="Repita a senha" />
+					
+				<input type="checkbox" id="ok" name="concorda" />
+				<label id="concordo" for="ok">Concordo com os termos de uso</label>
+					
+				<input type="submit" value="Cadastrar" id="cadastrar" />
+			</form>
+			</div>	
+		</section>
+		
+		<footer class="rodape">
+			Copyright &copy; 2019 - Todos os direitos reservados
+		</footer>
+		
+		<div class="voltar">
+			<img src="imagens/topo.png"/>
+		</div>
+		
+		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src="js/scripts.js"></script>
+		
+		
+		
+	</body>
+</html>
